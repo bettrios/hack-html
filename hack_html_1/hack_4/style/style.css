@@ -1,0 +1,111 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.linea {
+    background-color: #000;
+    height: 0.5vh;
+    width: 7vh;
+    border-radius: 10%;
+    margin: 10px auto;
+    margin-top: 5vh;
+    margin-bottom: 3vh;
+}
+
+section {
+    font-family: "Ruda", sans-serif;
+    text-align: center;
+}
+.eos, .sale {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+.eos {
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+.sale {
+    color: #B88940;
+    font-size: 3.8rem;
+    font-weight: 900;
+    letter-spacing: 5px;
+}
+
+.off {
+    font-size: 2rem;
+    font-weight: 800;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.lorem {
+    font-family: "Catamaran", sans-serif;
+    text-align: center;
+}
+
+.lorem-1 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 5vh;
+}
+
+.contenedor{
+    position: relative;
+    z-index: 0;
+}
+
+.fotos {
+    position: absolute;
+    top: 0.5vh;
+    margin-left: 27%; 
+}
+
+.cajas {
+    padding-top: 3vh;
+    z-index: 0;
+}
+
+.caja {
+    background-color: #FFBD59;
+    height: 5vh;
+    width: 95%;
+    margin: auto;
+    margin-bottom: 4vh;
+    z-index: 0;
+}
+
+img {
+    height: 37vh;
+    margin-right: 4vh;
+}
+
+.lorem-precios {
+    display: flex;
+    justify-content: center;
+    gap: 20vh;
+}
+
+.lorem-precio {
+    font-size: 0.8rem;
+    font-weight: 800;
+    margin-top: 0.3vh;
+}
+
+.fashion {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    color: #B88940;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.lorem-2 {
+    font-size: 1rem;
+    font-weight: 800;
+    margin-top: 0;
+}

@@ -1,0 +1,97 @@
+@media (min-width: 321px) and (max-width: 480px) {
+    
+    .background {
+        height: 25vh;
+    }
+
+    .texto {
+        margin-left: 2vh;
+    }
+
+    .texto-1 {
+        margin-top: 2vh;
+        width: 4rem;
+        padding: 4px;
+    }
+
+    .texto-2 {
+        font-size: 1rem;
+        margin-top: 0.5vh;
+    }
+    
+    .texto-3 {
+        font-size: 0.6rem;
+        margin-top: 2vh;
+    }
+
+    .logo {
+        top: 1.5rem;
+        right: 2rem;
+        width: 4rem;
+        height: 4rem;
+        font-size: 1rem;
+        }
+
+    .carrusel {
+        margin-top: 2em;
+        height: 15vh;
+    }
+
+    footer {
+        height: 8vh;
+        margin-top: 30px;
+        position: relative;
+    }
+
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .background {
+        height: 35vh;
+    }
+
+    .texto {
+        margin-left: 4vh;
+        margin-top: 2vh;
+    }
+
+    .texto-1 {
+        width: 5rem;
+        padding: 4px;
+    }
+
+    .texto-2 {
+        font-size: 1.4rem;
+        margin-top: 0.5vh;
+    }
+    
+    .texto-3 {
+        font-size: 0.6rem;
+        margin-top: 1vh;
+    }
+
+    .logo {
+        top: 1.5rem;
+        width: 6rem;
+        height: 6rem;
+        font-size: 1.5rem;
+        }
+
+    .carrusel {
+        height: 30vh;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) { 
+    .background {
+        height: 45vh;
+    }
+
+    .texto {
+        margin-left: 10vh;
+    }
+
+    .carrusel {
+        height: 20vh;
+    }
+}

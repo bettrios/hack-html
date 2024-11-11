@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Arimo", serif;
+}
+
+.background {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-image: url(../img/2.png);
+    width: 100%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-clip: border-box;
+    
+}
+
+.texto {
+    margin-left: 20vh;
+}
+
+.texto-1 {
+    margin-top: 6vh;
+    background-color: black;
+    text-align: center;
+    width: 5.5rem;
+    padding: 6px;
+    align-content: center;
+    font-size: 0.7rem;
+    border-radius: 30px 30px;
+    color: #fff;
+}
+
+.texto-2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-top: 2vh;
+    margin-bottom: 0;
+}
+
+.texto-3 {
+    font-size: 0.8rem;
+    margin-top: 2vh;
+}
+
+.logo {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00BF63;
+    top: 3rem;
+    right: 2rem;
+    width: 7.9rem;
+    height: 7.9rem;
+    border-radius: 100%;
+    font-size: 1.9rem;
+    font-weight: bold;
+    color: #fff;
+    }
+
+.carrusel {
+    display: flex;
+    justify-content: space-around; 
+    height: 40vh;
+    margin-top: 1.2em;
+}
+
+.texto-carrusel {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0.5em;
+    font-weight: bold;
+    line-height: 0;
+}
+
+.texto-carrusel, .precio-carrusel {
+    font-size: 0.8rem;
+}
+
+.precio-carrusel {
+    display: flex;
+    justify-content: space-around;
+    line-height: 0;
+}
+
+.precio-carrusel p {
+    font-weight: bold;
+}
+
+.precio-carrusel span {
+    text-decoration: line-through;
+    text-decoration-color: red;
+    text-decoration-thickness: 1px;
+    padding-right: 10px;
+    font-weight: lighter;
+}
+
+footer {
+    background-color: black;
+    min-width: 100%;
+    height: 12vh;
+    margin-top: 30px;
+    position: relative;
+}
+
+footer p {
+    background-color: #00BF63;
+    width: 5.8rem;
+    max-height: 0.7rem;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 10%;
+    bottom: 4%;
+    left: 10%;
+    color: #fff;
+    border-radius: 25px 25px;   
+}
+
+
+
